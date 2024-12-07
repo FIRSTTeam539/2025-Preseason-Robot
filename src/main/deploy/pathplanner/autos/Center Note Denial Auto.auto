@@ -1,0 +1,31 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 0.6058123547989605,
+      "y": 4.35248053625963
+    },
+    "rotation": -60.42216131873868
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Anti-fresta taxi 1"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Anti Festa 2"
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": false
+}

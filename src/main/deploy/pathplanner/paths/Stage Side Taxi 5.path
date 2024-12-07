@@ -1,0 +1,64 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 0.7893918562531909,
+        "y": 4.389196436550476
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 0.8393918562531909,
+        "y": 4.389196436550476
+      },
+      "isLocked": false,
+      "linkedName": "stage side taxi 4 endpoint"
+    },
+    {
+      "anchor": {
+        "x": 0.7893918562531909,
+        "y": 4.389196436550476
+      },
+      "prevControl": {
+        "x": 0.739391856253191,
+        "y": 4.389196436550476
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "stage side taxi 4 endpoint"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [
+    {
+      "name": "New Constraints Zone",
+      "minWaypointRelativePos": 0,
+      "maxWaypointRelativePos": 1.0,
+      "constraints": {
+        "maxVelocity": 1.0,
+        "maxAcceleration": 3.0,
+        "maxAngularVelocity": 280.0,
+        "maxAngularAcceleration": 350.0
+      }
+    }
+  ],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 3.7,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 280.0,
+    "maxAngularAcceleration": 350.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": -54.77999999999997,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": null,
+  "previewStartingState": {
+    "rotation": -54.77999999999997,
+    "velocity": 0
+  },
+  "useDefaultConstraints": true
+}
