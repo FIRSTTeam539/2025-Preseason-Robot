@@ -48,9 +48,9 @@
   "constraintZones": [],
   "eventMarkers": [],
   "globalConstraints": {
-    "maxVelocity": 3.7,
-    "maxAcceleration": 3.0,
-    "maxAngularVelocity": 280.0,
+    "maxVelocity": 5.36,
+    "maxAcceleration": 4.0,
+    "maxAngularVelocity": 330.0,
     "maxAngularAcceleration": 350.0
   },
   "goalEndState": {
@@ -59,7 +59,7 @@
     "rotateFast": true
   },
   "reversed": false,
-  "folder": null,
+  "folder": "2024",
   "previewStartingState": {
     "rotation": -52.0,
     "velocity": 0

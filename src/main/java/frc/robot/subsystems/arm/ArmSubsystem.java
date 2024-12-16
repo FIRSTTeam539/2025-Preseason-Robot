@@ -1,5 +1,7 @@
 package frc.robot.subsystems.arm;
 
+//Spencer Anthony wrote this code
+
 import com.revrobotics.CANSparkMax;
 import com.revrobotics.MotorFeedbackSensor;
 import com.revrobotics.RelativeEncoder;
@@ -59,40 +61,6 @@ public class ArmSubsystem extends SubsystemBase{
      */
       /** The shooter subsystem for the robot. */
     public ArmSubsystem() {
-        /*super(
-        new TrapezoidProfile.Constraints(
-            ArmConstants.kMaxVelocityRadPerSecond, ArmConstants.kMaxAccelerationRadPerSecSquared),
-        ArmConstants.kArmOffsetRads);*/
-        //super(new PIDController(ArmConstants.kP, ArmConstants.kI, ArmConstants.kD));
-        /*pidController.setFeedbackDevice(armEncoder);
-        pidController.setP(ArmConstants.kP);
-        pidController.setI(ArmConstants.kI);
-        pidController.setD(ArmConstants.kD);
-        pidController.setIZone(ArmConstants.kIz);
-        pidController.setFF(ArmConstants.kFF);
-        pidController.setOutputRange(ArmConstants.kMinOutput, ArmConstants.kMaxOutput);
-
-        pidController.setSmartMotionMaxVelocity(ArmConstants.maxVel, SMART_MOTION_SLOT);
-        pidController.setSmartMotionMinOutputVelocity(ArmConstants.minVel, SMART_MOTION_SLOT);
-        pidController.setSmartMotionMaxAccel(ArmConstants.maxAcc, SMART_MOTION_SLOT);
-        pidController.setSmartMotionAllowedClosedLoopError(ArmConstants.allowedErr, SMART_MOTION_SLOT);
-
-        // armLeader.enableVoltageCompensation(12);
-        // armLeader.setSmartCurrentLimit(20);
-        // armFollower.setSmartCurrentLimit(20);
-        
-        armLeader.setSoftLimit(kForward, ArmConstants.LIMIT_TOP);
-        armLeader.setSoftLimit(kReverse, ArmConstants.LIMIT_BOTTOM);
-        armLeader.enableSoftLimit(kForward, true);
-        armLeader.enableSoftLimit(kReverse, true);
-
-        // Disable limit switches, we don't have any
-        armLeader.getForwardLimitSwitch(kNormallyOpen).enableLimitSwitch(false);
-        armLeader.getReverseLimitSwitch(kNormallyOpen).enableLimitSwitch(false);*/
-        //armLeader.setSoftLimit(kReverse, SMART_MOTION_SLOT)
-        /*MotorFeedbackSensor x = new MotorFeedbackSensor() {
-            
-        };*/
         //pidController.setFeedbackDevice(armEnc);
         armFollower.follow(armLeader, true);
 

@@ -54,7 +54,7 @@ public final class Constants {
    public static final class AutonConstants
   {
 
-    public static final PIDConstants TRANSLATION_PID = new PIDConstants(0.1, 0, 0.0);
+    public static final PIDConstants TRANSLATION_PID = new PIDConstants(0.01, 0, 0.0);
     public static final PIDConstants ANGLE_PID   = new PIDConstants(0.4, 0, 0.01);
   }
 
@@ -170,7 +170,7 @@ public final class Constants {
   public static final class DriveConstants {
     // Driving Parameters - Note that these are not the maximum capable speeds of
     // the robot, rather the allowed maximum speeds
-    public static final double kMaxSpeedMetersPerSecond = 4.8;
+    public static final double kMaxSpeedMetersPerSecond = 6;
     public static final double kMaxAngularSpeed = 2 * Math.PI; // radians per second
 
     public static final double WHEEL_LOCK_TIME = 10;

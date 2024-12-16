@@ -61,7 +61,7 @@
     "rotateFast": false
   },
   "reversed": false,
-  "folder": null,
+  "folder": "2024",
   "previewStartingState": {
     "rotation": 0,
     "velocity": 2.0
